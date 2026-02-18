@@ -1,0 +1,22 @@
+{
+  "name": "personal-reading-log",
+  "version": "1.0.0",
+  "description": "This repository showcases a diary style application where users can keep track of the books they've read in the past and log their  experience with the book by leaving a comment on each book, perform CRUD actions on the books in their account and keep their data secure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.2.4",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "password-validator": "^5.3.0",
+    "pg": "^8.18.0"
+  }
+}
